@@ -1,4 +1,4 @@
-/* ===== Estilos básicos ===== */
+/* Estilos basicos */
 body {
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ header h1 {
     font-size: 3rem;
 }
 
-/* Navegación */
+/* Navegacion */
 nav ul {
     list-style: none;
     display: flex;
@@ -59,7 +59,7 @@ nav ul li a:hover {
     gap: 20px;
 }
 
-/* Imagen lateral fija */
+/* Imagen lateral */
 .imagen-lateral {
     width: 28%;
     /* casi 1/3 del ancho */
@@ -97,7 +97,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-/* Párrafos y listas */
+/* Parrafos y listas */
 p,
 dl,
 ol,

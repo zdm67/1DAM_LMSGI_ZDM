@@ -1,4 +1,4 @@
-// Función para mostrar una sección y ocultar las demás
+// Función para mostrar una seccion y ocultar las otras
 function mostrarSeccion(id) {
     const secciones = document.querySelectorAll('#contenido article');
     secciones.forEach(sec => {
