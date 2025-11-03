@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test</title>
+    <style>
+        #titulo.p {
+            width: 300px;
+        }
+
+        #titulo {
+            border: solid 3px blue;
+        }
+
+        p {
+            background-color: cyan;
+        }
+
+        .pregunta {
+            color: white;
+            background-color: black;
+            font-weight: bold;
+        }
+
+        .respuesta {
+            color: red;
+        }
+
+        .respuesta.correcta {
+            color: green;
+        }
+
+        #titulo+.pregunta {
+            background-color: grey;
+        }
+
+        .respuestas li {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="titulo">&nbsp;Solución Test CSS</h1>
+    <!-- Pregunta 1 -->
+    <p class="pregunta">¿Qué significa CSS?</p>
+    <ul class="respuestas">
+        <li class="respuesta correcta">Cascading Style Sheets</li>
+        <li class="respuesta">Center Style Steels</li>
+        <li class="respuesta">Calibre Style Sheet</li>
+        <li class="respuesta">Ninguna respuesta es correcta</li>
+    </ul>
+    <!-- Pregunta 2 -->
+    <p class="pregunta">Indica el selector de tipo identificador</p>
+    <ul class="respuestas">
+        <li class="respuesta">identificador(color:red;)</li>
+        <li class="respuesta">.identificador(color:red;)</li>
+        <li class="respuesta correcta">#identificador(color:red;)</li>
+        <li class="respuesta">$identificador(color:red;)</li>
+    </ul>
+    <!-- Explicación -->
+    <p>Sigue los siguientes pasos</p>
+    <ul>
+        <li>Accede a la intranet</li>
+        <li>Entra en la opción de test</li>
+        <li>Descarga el test</li>
+        <li>Envíalo por correo</li>
+    </ul>
+</body>
+
+</html>
