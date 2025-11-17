@@ -1,0 +1,60 @@
+div ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    background-color: lightblue;
+    border: 3px;
+    color: blue;
+    padding: 3px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+div ul li {
+    margin: 5px 60px;
+}
+
+div ul li a {
+    color: blue;
+}
+
+div ul li a:hover {
+    background-color: blue;
+    padding: 3px;
+    margin-bottom: 30px;
+    color: white;
+    transition: 0.3s;
+}
+
+#titulo {
+    background-color: lightblue;
+    border: solid 3px;
+    padding: 10px;
+    color: blue;
+    width: 600 px;
+    text-align: center;
+    font-size: 40;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#componentes,
+#funcioanmiento,
+#datos,
+#areas {
+    border: solid 3px;
+    padding: 10px;
+    background-color: lightblue;
+    color: blue;
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#lista {
+    color: blue;
+
+}
