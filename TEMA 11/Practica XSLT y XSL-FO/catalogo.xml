@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogo.xsl"?>
+<catalogo>
+    <equipo>
+        <marca>Lenovo</marca>
+        <modelo>ThinkPad T14</modelo>
+        <tipo>Portátil</tipo>
+        <precio_sin_iva>1000</precio_sin_iva>
+        <tasa_iva>0.21</tasa_iva>
+        <stock>alta</stock>
+    </equipo>
+
+    <equipo>
+        <marca>Logitech</marca>
+        <modelo>MX Master 3S</modelo>
+        <tipo>Ratón</tipo>
+        <precio_sin_iva>80</precio_sin_iva>
+        <tasa_iva>0.21</tasa_iva>
+        <stock>alta</stock>
+    </equipo>
+
+    <equipo>
+        <marca>Dell</marca>
+        <modelo>UltraSharp U2723QE</modelo>
+        <tipo>Monitor</tipo>
+        <precio_sin_iva>600</precio_sin_iva>
+        <tasa_iva>0.21</tasa_iva>
+        <stock>media</stock>
+    </equipo>
+
+    <equipo>
+        <marca>HP</marca>
+        <modelo>EliteDesk 800 G9</modelo>
+        <tipo>PC de sobremesa</tipo>
+        <precio_sin_iva>1200</precio_sin_iva>
+        <tasa_iva>0.21</tasa_iva>
+        <stock>alta</stock>
+    </equipo>
+
+    <equipo>
+        <marca>Corsair</marca>
+        <modelo>K95 RGB Platinum</modelo>
+        <tipo>Teclado</tipo>
+        <precio_sin_iva>180</precio_sin_iva>
+        <tasa_iva>0.21</tasa_iva>
+        <stock>baja</stock>
+    </equipo>
+</catalogo>
