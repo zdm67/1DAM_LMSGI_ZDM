@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Cambiamos la tipografia de la pagina por Montserrat desde Google Fonts -->
+<!-- El title de la pagina sera "Portfolio de Dante" -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Portfolio de Dante</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<!-- Nuestro body que contiene todo el contenido de la pagina -->
+<!-- El titulo principal sera "Dante" -->
+
+    <div id="container">
+
+        <header>
+            <h1>Dante</h1>
+        </header>
+
+        <!-- Navegacion con enlaces a las secciones con un dock de secciones -->
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi" target="_self">Sobre mi</a></li>
+                <li><a href="#skills" target="_self">Skills</a></li>
+                <li><a href="#proyectos" target="_self">Proyectos</a></li>
+                <li><a href="#contacto" target="_self">Contacto</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- Nuestro contenido principal con una imagen lateral -->
+        <section id="contenido">
+
+            <div class="imagen-lateral">
+                <img src="img/Dante.png" alt="Dante" title="Dante" width="300" height="300">
+
+            </div>
+
+            <!-- Secciones con atributos el class de seccion activa y seccion oculta para mostrar/ocultar en el css y js -->
+            <article id="sobre-mi" class="seccion-activa">
+                <h2>Sobre mi</h2>
+                <p>¡Hola! Soy <strong>Dante</strong>, un apasionado programador con una gran curiosidad por la
+                    tecnología y el desarrollo
+                    de software. Me encanta transformar ideas en soluciones digitales funcionales, limpias y eficientes.
+                    Siempre estoy en constante aprendizaje, buscando nuevos retos que me permitan crecer profesional y
+                    creativamente.</p>
+                <hr>
+                <blockquote>
+                    <p>"La programación es la poesía del siglo XXI"</p>
+                </blockquote>
+            </article>
+
+            <article id="skills" class="seccion-oculta">
+                <h2>Skills</h2>
+                <p><strong>Lenguajes:</strong> JavaScript, Python, HTML, CSS</p>
+                <p><strong>Frameworks:</strong> React, Node.js, Express</p>
+                <p><strong>Herramientas:</strong> Git, VS Code, Figma, APIs REST</p>
+                <p><strong>Soft Skills:</strong> Trabajo en equipo, creatividad, pensamiento lógico, resolución de
+                    problemas</p>
+                <hr>
+                <dl>
+                    <dt>Lenguajes</dt>
+                    <dd>JavaScript, Python, HTML, CSS</dd>
+                    <dt>Frameworks</dt>
+                    <dd>React, Node.js, Express</dd>
+                    <dt>Herramientas</dt>
+                    <dd>Git, VS Code, Figma, APIs REST</dd>
+                </dl>
+            </article>
+
+            <article id="proyectos" class="seccion-oculta">
+                <h2>Proyectos</h2>
+                <p><strong>TaskFlow:</strong> Plataforma web para organizar tareas y aumentar productividad.</p>
+                <p><strong>PixelPlay:</strong> Galería interactiva con animaciones dinámicas para mostrar contenido
+                    visual.</p>
+                <p><strong>DevTools API:</strong> API REST para integrar datos externos en aplicaciones front-end.</p>
+                <hr>
+                <ol>
+                    <li>TaskFlow</li>
+                    <li>PixelPlay</li>
+                    <li>DevTools API</li>
+                </ol>
+            </article>
+
+            <article id="contacto" class="seccion-oculta">
+                <h2>Contacto</h2>
+                <p>Puedes enviarme un mensaje a <a href="mailto:dante.dev@email.com"
+                        target="_blank">dante.dev@email.com</a>.</p>
+                <p><mark>¡Disponible para nuevos proyectos!</mark></p>
+                <hr>
+                <iframe width="300" height="200"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.6559334522085!2d-3.7883062237649945!3d37.79810237197965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6dd7dec3dd20ad%3A0x4fad82fdbe189c8!2sDavante%20MEDAC%20Aventura%20%F0%9F%A5%87%20Centro%20FP%20Ja%C3%A9n!5e0!3m2!1ses!2ses!4v1760384676429!5m2!1ses!2ses"
+                    title="Ubicación de Dante" frameborder="0" style="border:0;" allowfullscreen=""
+                    loading="lazy"></iframe>
+            </article>
+
+        </section>
+
+        <!--Un pie de pagina simple-->
+        <footer>
+            My Portfolio - 2025
+        </footer>
+
+    </div>
+
+    <!-- Enlazamos nuestro archivo de JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
